@@ -1,0 +1,14 @@
+public class Narrow{
+    public static void main(String args[]){
+        double myDouble = 166.66;
+        
+        long myLong = (long) myDouble;
+    
+        System.out.println("Before coversion:" = myDouble);
+        System.out.println("After coversion into long type: " myLong);
+        
+        int myInt = (int) myLong;
+    
+        System.out.println("AfterCoversion into int type:" + myInt);
+    }
+}

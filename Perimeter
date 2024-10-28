@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Perimeter
+{
+    public static void main(String args[])
+    {
+        float side, area;
+        Scanner s = new Scanner(System.in);
+        
+        System.out.println("Enter the side Length of Square:");
+        side = s.nextFloat();
+        
+        area = 4*side;
+        System.out.println("Area = " +area);
+    }
+}
